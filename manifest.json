@@ -1,16 +1,30 @@
 {
-    "name": "Meu Aplicativo com iFrame",
-    "description": "Descrição do meu aplicativo",
-    "version": "1.0",
-    "code": "meu_aplicativo",
-    "hidden": false,
-    "rights": [],
-    "icons": {
-        "default": "/images/icon.png",
-        "24": "/images/icon.png"
-    },
-    "pages": {
-        "index": "/index.html"
-    },
-    "widgets": []
+  "manifest_version": 1,
+  "version": "1.0.0",
+  "name": {
+    "en": "Google Iframe App"
+  },
+  "description": {
+    "en": "App to load Google.com in an iframe"
+  },
+  "placement": {
+    "dashboard": true
+  },
+  "app": {
+    "js": "/path/to/your/script.js",
+    "css": "/path/to/your/style.css",
+    "lang": "/path/to/your/lang.php",
+    "options": {
+      "iframe_url": {
+        "default": "https://www.google.com"
+      }
+    }
+  },
+  "handlers": {
+    "IFRAME": {
+      "iframe_url": {
+        "url": "index.php"
+      }
+    }
+  }
 }
