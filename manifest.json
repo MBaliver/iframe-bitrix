@@ -1,0 +1,16 @@
+{
+    "name": "Meu Aplicativo com iFrame",
+    "description": "Descrição do meu aplicativo",
+    "version": "1.0",
+    "code": "meu_aplicativo",
+    "hidden": false,
+    "rights": [],
+    "icons": {
+        "default": "/images/icon.png",
+        "24": "/images/icon.png"
+    },
+    "pages": {
+        "index": "/index.html"
+    },
+    "widgets": []
+}
